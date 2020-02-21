@@ -1,0 +1,800 @@
+ioq3 1.36 linux-x86_64 Apr 12 2009
+----- FS_Startup -----
+Current search path:
+/home/michal/.q3a/baseq3
+/home/michal/Games/ioquake3-linux/baseq3/pak8.pk3 (9 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak7.pk3 (4 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak6.pk3 (64 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak5.pk3 (7 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak4.pk3 (272 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak3.pk3 (4 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak2.pk3 (148 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak1.pk3 (26 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak0.pk3 (3539 files)
+/home/michal/Games/ioquake3-linux/baseq3
+
+----------------------
+4073 files in pk3 files
+execing default.cfg
+execing q3config.cfg
+com_zoneMegs will be changed upon restarting.
+couldn't exec autoexec.cfg
+Hunk_Clear: reset the hunk ok
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+QKEY found.
+----- Client Initialization Complete -----
+----- R_Init -----
+SDL using driver "x11"
+Initializing OpenGL display
+Estimated display aspect: 1.778
+...setting mode 8: 1280 1024
+Using 8/8/8 Color bits, 24 depth, 0 stencil display.
+Available modes: '1920x1080 1280x720 1600x900 720x400 1280x800 1440x900 1680x1050 720x480 640x480 800x600 832x624 1024x768 1152x864 720x576 1280x1024'
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+Initializing OpenGL extensions
+...ignoring GL_EXT_texture_compression_s3tc
+...ignoring GL_S3_s3tc
+...using GL_EXT_texture_env_add
+...using GL_ARB_multitexture
+...using GL_EXT_compiled_vertex_array
+...ignoring GL_EXT_texture_filter_anisotropic
+
+GL_VENDOR: Intel Open Source Technology Center
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+GL_VERSION: 3.0 Mesa 19.0.8
+GL_EXTENSIONS: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_UNITS_ARB: 8
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(0-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:N/A
+GAMMA: hardware w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+Initializing Shaders
+----- finished R_Init -----
+------ Initializing Sound ------
+Loading "libopenal.so.0"...
+Failed to load library: "libopenal.so.0".
+SDL_Init( SDL_INIT_AUDIO )... OK
+SDL audio driver is "pulse".
+SDL_AudioSpec:
+  Format:   AUDIO_S16LSB
+  Freq:     22050
+  Samples:  256
+  Channels: 2
+Starting SDL audio callback...
+SDL audio initialized.
+----- Sound Info -----
+    1 stereo
+ 8192 samples
+   16 samplebits
+    1 submission_chunk
+22050 speed
+0x3d73930 dma buffer
+No background file.
+----------------------
+Sound initialization successful.
+--------------------------------
+Sound memory manager started
+Loading vm file vm/ui.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 7862, hsize 1021, zero 10, min 0, max 25
+VM file ui compiled to 2574196 bytes of code (0x7f0d5da6d000 - 0x7f0d5dce1774)
+compilation took 1.136196 seconds
+ui loaded in 1368576 bytes on the hunk
+35 arenas parsed
+32 bots parsed
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 192.168.0.118
+IP: 172.20.0.1
+IP: 172.17.0.1
+IP: 172.18.0.1
+IP: 172.25.0.1
+IP6: ::1
+IP6: fe80::84f8:352d:e436:93c0%wlp2s0
+IP6: fe80::42:c4ff:fe3b:59d1%docker0
+IP6: fe80::42:95ff:fe4b:6526%fundrbridge
+IP6: fe80::e084:88ff:fe5e:9421%veth0fb5bab
+IP6: fe80::3425:6ff:fe32:8de9%vethf301c8d
+IP6: fe80::cc9c:8ff:fe54:f02%vethdebecc5
+IP6: fe80::a43e:81ff:fe70:ef9d%veth7d6ebf9
+IP6: fe80::50a3:91ff:fe11:3ce9%veth9792a96
+IP6: fe80::f0f3:7fff:fec7:8774%veth3064af0
+IP6: fe80::5c11:15ff:fecf:94ea%veth7b31694
+IP6: fe80::c803:97ff:fe40:1f3c%veth0aaf184
+IP6: fe80::68c8:ffff:fe55:7f63%veth4ce02b7
+IP6: fe80::8873:a4ff:fe8c:98b4%veth796ac93
+IP6: fe80::98ed:8cff:fed6:a8c1%veth18723c4
+Opening IP6 socket: [::]:27960
+Opening IP socket: 0.0.0.0:27960
+Scanning for servers on the local network...
+Resolving update.quake3arena.com
+update.quake3arena.com resolved to 192.246.40.56:27951
+192.168.0.117:27960 resolved to 192.168.0.117:27960
+----- FS_Startup -----
+Current search path:
+/home/michal/Games/ioquake3-linux/baseq3/pak8.pk3 (9 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak7.pk3 (4 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak6.pk3 (64 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak5.pk3 (7 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak4.pk3 (272 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak3.pk3 (4 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak2.pk3 (148 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak1.pk3 (26 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak0.pk3 (3539 files)
+    on the pure list
+/home/michal/.q3a/baseq3
+/home/michal/Games/ioquake3-linux/baseq3
+
+----------------------
+8146 files in pk3 files
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: Intel Open Source Technology Center
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+GL_VERSION: 3.0 Mesa 19.0.8
+GL_EXTENSIONS: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_UNITS_ARB: 8
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(0-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:N/A
+GAMMA: hardware w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+Initializing Shaders
+----- finished R_Init -----
+Loading vm file vm/ui.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 7862, hsize 1021, zero 10, min 0, max 25
+VM file ui compiled to 2574196 bytes of code (0x7f0d5da6d000 - 0x7f0d5dce1774)
+compilation took 0.544870 seconds
+ui loaded in 1368576 bytes on the hunk
+35 arenas parsed
+32 bots parsed
+Loading vm file vm/cgame.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 8176, hsize 1021, zero 5, min 0, max 29
+VM file cgame compiled to 3140210 bytes of code (0x7f0d5cf52000 - 0x7f0d5d250a72)
+compilation took 0.679595 seconds
+cgame loaded in 4593920 bytes on the hunk
+stitched 0 LoD cracks
+...loaded 1942 faces, 113 meshes, 42 trisurfs, 0 flares
+CL_InitCGame:  1.23 seconds
+4 msec to draw all images
+Com_TouchMemory: 0 msec
+JamajskiSpekulant^7 entered the game
+hcumd^7 connected
+hcumd^7 entered the game
+JamajskiSpekulant^7 was machinegunned by hcumd^7
+szczepan^7 almost dodged Maciek^7's rocket
+hcumd^7 ate Maciek^7's rocket
+Maciek^7 was machinegunned by szczepan^7
+Maciek^7: ^2ip
+Maciek^7 was melted by JamajskiSpekulant^7's plasmagun
+hcumd^7 almost dodged szczepan^7's rocket
+hcumd^7 almost dodged szczepan^7's rocket
+szczepan^7 blew himself up.
+szczepan^7 ate hcumd^7's rocket
+szczepan^7 disconnected
+hcumd^7 ate JamajskiSpekulant^7's rocket
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: Intel Open Source Technology Center
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+GL_VERSION: 3.0 Mesa 19.0.8
+GL_EXTENSIONS: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_UNITS_ARB: 8
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(0-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:N/A
+GAMMA: hardware w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+Initializing Shaders
+----- finished R_Init -----
+Loading vm file vm/ui.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 7862, hsize 1021, zero 10, min 0, max 25
+VM file ui compiled to 2574196 bytes of code (0x7f0d5da6d000 - 0x7f0d5dce1774)
+compilation took 0.543617 seconds
+ui loaded in 1368576 bytes on the hunk
+35 arenas parsed
+32 bots parsed
+----- FS_Startup -----
+Current search path:
+/home/michal/.q3a/baseq3
+/home/michal/Games/ioquake3-linux/baseq3/pak8.pk3 (9 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak7.pk3 (4 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak6.pk3 (64 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak5.pk3 (7 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak4.pk3 (272 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak3.pk3 (4 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak2.pk3 (148 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak1.pk3 (26 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak0.pk3 (3539 files)
+/home/michal/Games/ioquake3-linux/baseq3
+
+----------------------
+12219 files in pk3 files
+Scanning for servers on the local network...
+Scanning for servers on the local network...
+Scanning for servers on the local network...
+Scanning for servers on the local network...
+Scanning for servers on the local network...
+Resolving update.quake3arena.com
+update.quake3arena.com resolved to 192.246.40.56:27951
+192.168.0.117:27960 resolved to 192.168.0.117:27960
+----- FS_Startup -----
+Current search path:
+/home/michal/Games/ioquake3-linux/baseq3/pak8.pk3 (9 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak7.pk3 (4 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak6.pk3 (64 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak5.pk3 (7 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak4.pk3 (272 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak3.pk3 (4 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak2.pk3 (148 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak1.pk3 (26 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak0.pk3 (3539 files)
+    on the pure list
+/home/michal/.q3a/baseq3
+/home/michal/Games/ioquake3-linux/baseq3
+
+----------------------
+16292 files in pk3 files
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: Intel Open Source Technology Center
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+GL_VERSION: 3.0 Mesa 19.0.8
+GL_EXTENSIONS: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_UNITS_ARB: 8
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(0-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:N/A
+GAMMA: hardware w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+Initializing Shaders
+----- finished R_Init -----
+Loading vm file vm/ui.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 7862, hsize 1021, zero 10, min 0, max 25
+VM file ui compiled to 2574196 bytes of code (0x7f0d5da6d000 - 0x7f0d5dce1774)
+compilation took 0.551862 seconds
+ui loaded in 1368576 bytes on the hunk
+35 arenas parsed
+32 bots parsed
+Loading vm file vm/cgame.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 8176, hsize 1021, zero 5, min 0, max 29
+VM file cgame compiled to 3140210 bytes of code (0x7f0d5cf1a000 - 0x7f0d5d218a72)
+compilation took 0.689876 seconds
+cgame loaded in 4593920 bytes on the hunk
+stitched 0 LoD cracks
+...loaded 1942 faces, 113 meshes, 42 trisurfs, 0 flares
+CL_InitCGame:  1.16 seconds
+3 msec to draw all images
+Com_TouchMemory: 0 msec
+hcumd^7 connected
+hcumd^7 entered the game
+JamajskiSpekulant^7 entered the game
+szczepan^7 connected
+szczepan^7 entered the game
+hcumd^7 almost dodged Maciek^7's rocket
+szczepan^7 ate Maciek^7's rocket
+JamajskiSpekulant^7 blew herself up.
+Maciek^7 almost dodged szczepan^7's rocket
+JamajskiSpekulant^7 was machinegunned by hcumd^7
+hcumd^7 was melted by Maciek^7's plasmagun
+Maciek^7 almost dodged szczepan^7's rocket
+Kaz^7 connected
+Kaz^7 entered the game
+hcumd^7 was melted by szczepan^7's plasmagun
+Maciek^7 entered the game
+JamajskiSpekulant^7 entered the game
+hcumd^7 entered the game
+szczepan^7 entered the game
+Kaz^7 entered the game
+JamajskiSpekulant^7 was melted by Kaz^7's plasmagun
+szczepan^7 almost dodged Maciek^7's rocket
+hcumd^7 was melted by Kaz^7's plasmagun
+Kaz^7 was melted by szczepan^7's plasmagun
+szczepan^7 was melted by JamajskiSpekulant^7's plasmagun
+hcumd^7 ate Maciek^7's rocket
+szczepan^7 almost dodged Maciek^7's rocket
+hcumd^7 ate Maciek^7's rocket
+Maciek^7 was melted by JamajskiSpekulant^7's plasmagun
+szczepan^7 was melted by Kaz^7's plasmagun
+Kaz^7 was melted by Maciek^7's plasmagun
+szczepan^7 ate JamajskiSpekulant^7's rocket
+hcumd^7 ate JamajskiSpekulant^7's rocket
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+szczepan^7 almost dodged Maciek^7's rocket
+JamajskiSpekulant^7 was machinegunned by szczepan^7
+hcumd^7 was machinegunned by Kaz^7
+hcumd^7 was melted by szczepan^7's plasmagun
+JamajskiSpekulant^7 almost dodged Maciek^7's rocket
+Kaz^7 almost dodged Maciek^7's rocket
+szczepan^7 almost dodged Maciek^7's rocket
+Maciek^7 was melted by JamajskiSpekulant^7's plasmagun
+JamajskiSpekulant^7 was machinegunned by szczepan^7
+Kaz^7 was melted by szczepan^7's plasmagun
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+szczepan^7 was machinegunned by JamajskiSpekulant^7
+Kaz^7 was melted by Maciek^7's plasmagun
+szczepan^7 was melted by Maciek^7's plasmagun
+hcumd^7 was machinegunned by Kaz^7
+szczepan^7 almost dodged JamajskiSpekulant^7's rocket
+Kaz^7 was melted by Maciek^7's plasmagun
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+hcumd^7 was melted by szczepan^7's plasmagun
+szczepan^7 ate Maciek^7's rocket
+Kaz^7 was melted by JamajskiSpekulant^7's plasmagun
+hcumd^7 ate Maciek^7's rocket
+Maciek^7 ate szczepan^7's rocket
+Kaz^7 was melted by szczepan^7's plasmagun
+hcumd^7 was melted by Maciek^7's plasmagun
+szczepan^7 was melted by Maciek^7's plasmagun
+Kaz^7 ate szczepan^7's rocket
+szczepan^7 was melted by Maciek^7's plasmagun
+hcumd^7 was melted by Maciek^7's plasmagun
+Kaz^7 was melted by JamajskiSpekulant^7's plasmagun
+Kaz^7 was melted by szczepan^7's plasmagun
+hcumd^7 was melted by szczepan^7's plasmagun
+szczepan^7 was melted by JamajskiSpekulant^7's plasmagun
+Kaz^7 almost dodged Maciek^7's rocket
+Kaz^7 was melted by hcumd^7's plasmagun
+szczepan^7 almost dodged Maciek^7's rocket
+hcumd^7 almost dodged JamajskiSpekulant^7's rocket
+hcumd^7 almost dodged Maciek^7's rocket
+szczepan^7 was melted by Kaz^7's plasmagun
+szczepan^7 ate Maciek^7's rocket
+Kaz^7 was machinegunned by hcumd^7
+Maciek^7 was gunned down by JamajskiSpekulant^7
+Kaz^7 almost dodged JamajskiSpekulant^7's rocket
+szczepan^7 was gunned down by Maciek^7
+Kaz^7 was machinegunned by szczepan^7
+szczepan^7 was melted by hcumd^7's plasmagun
+Kaz^7 almost dodged Maciek^7's rocket
+Maciek^7 was machinegunned by szczepan^7
+Kaz^7 was melted by Maciek^7's plasmagun
+JamajskiSpekulant^7 ate szczepan^7's rocket
+hcumd^7 was melted by Maciek^7's plasmagun
+Kaz^7 almost dodged szczepan^7's rocket
+JamajskiSpekulant^7 was machinegunned by Kaz^7
+Kaz^7 was melted by Maciek^7's plasmagun
+szczepan^7 was machinegunned by hcumd^7
+hcumd^7 almost dodged JamajskiSpekulant^7's rocket
+Kaz^7 was melted by Maciek^7's plasmagun
+Maciek^7 almost dodged JamajskiSpekulant^7's rocket
+JamajskiSpekulant^7 almost dodged Maciek^7's rocket
+Kaz^7 ate szczepan^7's rocket
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+hcumd^7 was machinegunned by JamajskiSpekulant^7
+Kaz^7 was melted by Maciek^7's plasmagun
+szczepan^7 was melted by Maciek^7's plasmagun
+hcumd^7 was machinegunned by JamajskiSpekulant^7
+JamajskiSpekulant^7 almost dodged Maciek^7's rocket
+szczepan^7 ate Maciek^7's rocket
+Kaz^7 almost dodged Maciek^7's rocket
+hcumd^7 was machinegunned by JamajskiSpekulant^7
+JamajskiSpekulant^7 was machinegunned by szczepan^7
+Kaz^7 ate Maciek^7's rocket
+hcumd^7 almost dodged Maciek^7's rocket
+szczepan^7 was gunned down by JamajskiSpekulant^7
+JamajskiSpekulant^7 almost dodged Maciek^7's rocket
+szczepan^7 was melted by hcumd^7's plasmagun
+Maciek^7 was machinegunned by szczepan^7
+Maciek^7 ate szczepan^7's rocket
+szczepan^7 was machinegunned by JamajskiSpekulant^7
+hcumd^7 almost dodged JamajskiSpekulant^7's rocket
+szczepan^7 was melted by Maciek^7's plasmagun
+hcumd^7 was machinegunned by Kaz^7
+JamajskiSpekulant^7 almost dodged szczepan^7's rocket
+Kaz^7 was melted by Maciek^7's plasmagun
+szczepan^7 was melted by Maciek^7's plasmagun
+hcumd^7 almost dodged Maciek^7's rocket
+Maciek^7 ate JamajskiSpekulant^7's rocket
+JamajskiSpekulant^7 was machinegunned by Maciek^7
+Kaz^7 was melted by hcumd^7's plasmagun
+hcumd^7 was gunned down by Maciek^7
+Maciek^7 was machinegunned by szczepan^7
+szczepan^7 ate JamajskiSpekulant^7's rocket
+hcumd^7 melted himself.
+szczepan^7 was melted by Maciek^7's plasmagun
+Kaz^7 ate hcumd^7's rocket
+Maciek^7 ate JamajskiSpekulant^7's rocket
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+Kaz^7 was machinegunned by szczepan^7
+hcumd^7 blew himself up.
+JamajskiSpekulant^7 ate szczepan^7's rocket
+szczepan^7 was melted by Maciek^7's plasmagun
+szczepan^7 was melted by hcumd^7's plasmagun
+hcumd^7 was machinegunned by Kaz^7
+Kaz^7 was machinegunned by JamajskiSpekulant^7
+szczepan^7 ate Maciek^7's rocket
+JamajskiSpekulant^7 was melted by szczepan^7's plasmagun
+hcumd^7 was melted by Maciek^7's plasmagun
+Kaz^7 was melted by szczepan^7's plasmagun
+Maciek^7 was machinegunned by JamajskiSpekulant^7
+hcumd^7 was machinegunned by Maciek^7
+Kaz^7 was melted by szczepan^7's plasmagun
+szczepan^7 ate JamajskiSpekulant^7's rocket
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+Maciek^7 almost dodged JamajskiSpekulant^7's rocket
+hcumd^7 was machinegunned by Kaz^7
+szczepan^7 almost dodged Maciek^7's rocket
+JamajskiSpekulant^7 almost dodged Maciek^7's rocket
+Kaz^7 ate Maciek^7's rocket
+Maciek^7 almost dodged JamajskiSpekulant^7's rocket
+hcumd^7 was machinegunned by Kaz^7
+Maciek^7 was melted by szczepan^7's plasmagun
+szczepan^7 was machinegunned by Maciek^7
+JamajskiSpekulant^7 was machinegunned by Maciek^7
+Kaz^7 was machinegunned by szczepan^7
+szczepan^7 was melted by hcumd^7's plasmagun
+JamajskiSpekulant^7 was machinegunned by Kaz^7
+Kaz^7 was melted by Maciek^7's plasmagun
+hcumd^7 was melted by Maciek^7's plasmagun
+szczepan^7 was machinegunned by JamajskiSpekulant^7
+Kaz^7 was melted by Maciek^7's plasmagun
+hcumd^7 ate JamajskiSpekulant^7's rocket
+Maciek^7 was melted by szczepan^7's plasmagun
+JamajskiSpekulant^7 was machinegunned by Kaz^7
+Kaz^7 was machinegunned by Maciek^7
+szczepan^7 was melted by hcumd^7's plasmagun
+hcumd^7 was machinegunned by Kaz^7
+szczepan^7 almost dodged Maciek^7's rocket
+Kaz^7 was machinegunned by szczepan^7
+hcumd^7 was machinegunned by szczepan^7
+tomek^7 connected
+tomek^7 entered the game
+JamajskiSpekulant^7 ate Maciek^7's rocket
+Kaz^7 was machinegunned by szczepan^7
+Maciek^7 was machinegunned by tomek^7
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+Kaz^7 was melted by Maciek^7's plasmagun
+hcumd^7 was melted by Maciek^7's plasmagun
+mk^7 connected
+szczepan^7 was melted by Maciek^7's plasmagun
+mk^7 entered the game
+tomek^7 was machinegunned by JamajskiSpekulant^7
+hcumd^7 was machinegunned by szczepan^7
+mk^7 was melted by Maciek^7's plasmagun
+Kaz^7 was machinegunned by szczepan^7
+JamajskiSpekulant^7 was melted by Maciek^7's plasmagun
+Maciek^7 melted herself.
+szczepan^7 was machinegunned by Kaz^7
+tomek^7 blew himself up.
+Maciek^7 was machinegunned by tomek^7
+mk^7 was melted by hcumd^7's plasmagun
+hcumd^7 was melted by Kaz^7's plasmagun
+JamajskiSpekulant^7 almost dodged szczepan^7's rocket
+szczepan^7 was machinegunned by mk^7
+Kaz^7 was machinegunned by Maciek^7
+Timelimit hit.
+mk^7 almost dodged tomek^7's rocket
+mk^7 disconnected
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: Intel Open Source Technology Center
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+GL_VERSION: 3.0 Mesa 19.0.8
+GL_EXTENSIONS: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_UNITS_ARB: 8
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(0-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:N/A
+GAMMA: hardware w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+Initializing Shaders
+----- finished R_Init -----
+Loading vm file vm/ui.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 7862, hsize 1021, zero 10, min 0, max 25
+VM file ui compiled to 2574196 bytes of code (0x7f0d5da6d000 - 0x7f0d5dce1774)
+compilation took 0.543631 seconds
+ui loaded in 1368576 bytes on the hunk
+35 arenas parsed
+32 bots parsed
+----- FS_Startup -----
+Current search path:
+/home/michal/.q3a/baseq3
+/home/michal/Games/ioquake3-linux/baseq3/pak8.pk3 (9 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak7.pk3 (4 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak6.pk3 (64 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak5.pk3 (7 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak4.pk3 (272 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak3.pk3 (4 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak2.pk3 (148 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak1.pk3 (26 files)
+/home/michal/Games/ioquake3-linux/baseq3/pak0.pk3 (3539 files)
+/home/michal/Games/ioquake3-linux/baseq3
+
+----------------------
+20365 files in pk3 files
+Scanning for servers on the local network...
+Scanning for servers on the local network...
+Resolving update.quake3arena.com
+update.quake3arena.com resolved to 192.246.40.56:27951
+192.168.0.117:27960 resolved to 192.168.0.117:27960
+----- FS_Startup -----
+Current search path:
+/home/michal/Games/ioquake3-linux/baseq3/pak8.pk3 (9 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak7.pk3 (4 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak6.pk3 (64 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak5.pk3 (7 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak4.pk3 (272 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak3.pk3 (4 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak2.pk3 (148 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak1.pk3 (26 files)
+    on the pure list
+/home/michal/Games/ioquake3-linux/baseq3/pak0.pk3 (3539 files)
+    on the pure list
+/home/michal/.q3a/baseq3
+/home/michal/Games/ioquake3-linux/baseq3
+
+----------------------
+24438 files in pk3 files
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: Intel Open Source Technology Center
+GL_RENDERER: Mesa DRI Intel(R) Haswell Mobile 
+GL_VERSION: 3.0 Mesa 19.0.8
+GL_EXTENSIONS: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_texture_compression_bptc GL_GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_UNITS_ARB: 8
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(0-bits)
+MODE: 8, 1280 x 1024 fullscreen hz:N/A
+GAMMA: hardware w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 1
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+Initializing Shaders
+----- finished R_Init -----
+Loading vm file vm/ui.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 7862, hsize 1021, zero 10, min 0, max 25
+VM file ui compiled to 2574196 bytes of code (0x7f0d5da6d000 - 0x7f0d5dce1774)
+compilation took 0.552775 seconds
+ui loaded in 1368576 bytes on the hunk
+35 arenas parsed
+32 bots parsed
+Loading vm file vm/cgame.qvm...
+total 0, hsize 1021, zero 1021, min 0, max 0
+total 8176, hsize 1021, zero 5, min 0, max 29
+VM file cgame compiled to 3140210 bytes of code (0x7f0d5cee2000 - 0x7f0d5d1e0a72)
+compilation took 0.680011 seconds
+cgame loaded in 4593920 bytes on the hunk
+stitched 8 LoD cracks
+...loaded 3728 faces, 358 meshes, 180 trisurfs, 52 flares
+CL_InitCGame:  1.26 seconds
+4 msec to draw all images
+Com_TouchMemory: 0 msec
+mk^7 connected
+tomek^7 connected
+szczepan^7 connected
+hcumd^7 connected
+JamajskiSpekulant^7 entered the game
+mk^7 entered the game
+szczepan^7 entered the game
+tomek^7 entered the game
+hcumd^7 entered the game
+Kaz^7 connected
+Kaz^7 entered the game
+szczepan^7 was machinegunned by hcumd^7
+szczepan^7: ^2ifconfig
+hcumd^7 was gunned down by Maciek^7
+mk^7 ate tomek^7's rocket
+tomek^7 was machinegunned by szczepan^7
+JamajskiSpekulant^7 was gunned down by Maciek^7
+Kaz^7 ate szczepan^7's rocket
+Maciek^7 was railed by szczepan^7
+tomek^7 was melted by JamajskiSpekulant^7's plasmagun
+Maciek^7 was melted by JamajskiSpekulant^7's plasmagun
+mk^7 was melted by JamajskiSpekulant^7's plasmagun
+tomek^7 was machinegunned by Maciek^7
+Kaz^7 was melted by JamajskiSpekulant^7's plasmagun
+szczepan^7 was melted by JamajskiSpekulant^7's plasmagun
+Kaz^7 cratered.
+tomek^7 almost dodged Maciek^7's rocket
+szczepan^7 almost dodged Maciek^7's rocket
+mk^7 was melted by tomek^7's plasmagun
+hcumd^7 was melted by tomek^7's plasmagun
+Maciek^7 was melted by JamajskiSpekulant^7's plasmagun
+tomek^7 almost dodged Maciek^7's rocket
+tomek^7 ate JamajskiSpekulant^7's rocket
+hcumd^7 was machinegunned by Kaz^7
+Kaz^7 was melted by szczepan^7's plasmagun
+tomek^7 was gunned down by mk^7
+Maciek^7 was machinegunned by szczepan^7
+Kaz^7 almost dodged szczepan^7's rocket
+hcumd^7 was gunned down by mk^7
+mk^7 almost dodged JamajskiSpekulant^7's rocket
+Kaz^7 ate szczepan^7's rocket
+tomek^7 almost dodged JamajskiSpekulant^7's rocket
+szczepan^7 almost dodged Maciek^7's rocket
+hcumd^7 was machinegunned by Kaz^7
+JamajskiSpekulant^7 ate Maciek^7's rocket
+Kaz^7 was melted by mk^7's plasmagun
+JamajskiSpekulant^7 was melted by mk^7's plasmagun
+tomek^7 was melted by mk^7's plasmagun
+Kaz^7 was melted by mk^7's plasmagun
+hcumd^7 ate Maciek^7's rocket
+hcumd^7 almost dodged Maciek^7's rocket
+mk^7 cratered.
+Kaz^7 ate Maciek^7's rocket
+szczepan^7 ate Maciek^7's rocket
+Kaz^7 was gunned down by hcumd^7
+hcumd^7 was melted by tomek^7's plasmagun
+JamajskiSpekulant^7 ate Maciek^7's rocket
+szczepan^7 was melted by tomek^7's plasmagun
+JamajskiSpekulant^7 was melted by hcumd^7's plasmagun
+tomek^7 was railed by mk^7
+szczepan^7 was melted by hcumd^7's plasmagun
+tomek^7 almost dodged Maciek^7's rocket
+mk^7 was machinegunned by JamajskiSpekulant^7
+mk^7 was machinegunned by szczepan^7
+JamajskiSpekulant^7 was machinegunned by tomek^7
+hcumd^7 was railed by Kaz^7
+Kaz^7 cratered.
+tomek^7 was machinegunned by Kaz^7
+JamajskiSpekulant^7 was machinegunned by Kaz^7
+hcumd^7 cratered.
+Kaz^7 was melted by mk^7's plasmagun
+Kaz^7 was melted by JamajskiSpekulant^7's plasmagun
+szczepan^7 was machinegunned by hcumd^7
+mk^7 almost dodged Maciek^7's rocket
+JamajskiSpekulant^7 was machinegunned by tomek^7
+hcumd^7 blew himself up.
+mk^7 was melted by Maciek^7's plasmagun
+tomek^7 ate JamajskiSpekulant^7's rocket
+hcumd^7 was melted by Maciek^7's plasmagun
+szczepan^7 was machinegunned by hcumd^7
+tomek^7 was melted by Maciek^7's plasmagun
+tomek^7 was melted by Maciek^7's plasmagun
+tomek^7 almost dodged JamajskiSpekulant^7's rocket
+tomek^7 ate hcumd^7's rocket
+Kaz^7 almost dodged Maciek^7's rocket
+hcumd^7 was machinegunned by szczepan^7
+szczepan^7 ate Maciek^7's rocket
+Maciek^7 was railed by mk^7
+Kaz^7 was machinegunned by tomek^7
+szczepan^7 was machinegunned by tomek^7
+mk^7 was melted by Maciek^7's plasmagun
+mk^7 was melted by Maciek^7's plasmagun
+hcumd^7 ate JamajskiSpekulant^7's rocket
+tomek^7 was melted by Maciek^7's plasmagun
+hcumd^7 melted himself.
+szczepan^7 was melted by tomek^7's plasmagun
+tomek^7 almost dodged mk^7's rocket
+szczepan^7 was melted by Maciek^7's plasmagun
+Kaz^7 was gunned down by hcumd^7
+tomek^7 ate Maciek^7's rocket
+szczepan^7 was melted by mk^7's plasmagun
+Maciek^7 cratered.
+tomek^7 was melted by JamajskiSpekulant^7's plasmagun
+hcumd^7 was machinegunned by Maciek^7
+Kaz^7 ate mk^7's rocket
+Maciek^7 was machinegunned by tomek^7
+Kaz^7 ate JamajskiSpekulant^7's rocket
+tomek^7 almost dodged Maciek^7's rocket
+JamajskiSpekulant^7 almost dodged szczepan^7's rocket
+JamajskiSpekulant^7 was railed by Maciek^7
+szczepan^7 ate mk^7's rocket
+tomek^7 was melted by hcumd^7's plasmagun
+Kaz^7 almost dodged mk^7's rocket
+szczepan^7 was machinegunned by Maciek^7
+Kaz^7 was melted by hcumd^7's plasmagun
+hcumd^7 ate tomek^7's rocket
+szczepan^7 almost dodged Maciek^7's rocket
+JamajskiSpekulant^7 was melted by Kaz^7's plasmagun
+Maciek^7 was machinegunned by hcumd^7
+hcumd^7 was melted by Kaz^7's plasmagun
+Maciek^7 was melted by tomek^7's plasmagun
+szczepan^7 was machinegunned by JamajskiSpekulant^7
+tomek^7 was machinegunned by hcumd^7
+JamajskiSpekulant^7 was machinegunned by Kaz^7
+Kaz^7 was machinegunned by Maciek^7
+Maciek^7 was railed by mk^7
+JamajskiSpekulant^7 was melted by hcumd^7's plasmagun
+JamajskiSpekulant^7 was railed by mk^7
+mk^7 cratered.
+tomek^7 was machinegunned by Maciek^7
+szczepan^7 ate Maciek^7's rocket
+JamajskiSpekulant^7 was gunned down by tomek^7
+szczepan^7 ate tomek^7's rocket
+Kaz^7 was melted by JamajskiSpekulant^7's plasmagun
+hcumd^7 ate Maciek^7's rocket
+hcumd^7 ate Maciek^7's rocket
+Maciek^7 blew herself up.
+JamajskiSpekulant^7 was machinegunned by Maciek^7
+hcumd^7 was machinegunned by Maciek^7
+tomek^7 almost dodged szczepan^7's rocket
+szczepan^7 almost dodged mk^7's rocket
+mk^7 was machinegunned by JamajskiSpekulant^7
+Kaz^7 was machinegunned by tomek^7
+mk^7 was melted by szczepan^7's plasmagun
+Maciek^7 was machinegunned by tomek^7
+tomek^7 was machinegunned by mk^7
+hcumd^7 was machinegunned by mk^7
+Timelimit hit.
+mk^7 disconnected
+----- CL_Shutdown -----
+Closing SDL audio device...
+SDL audio device shut down.
+RE_Shutdown( 1 )
+-----------------------
+
