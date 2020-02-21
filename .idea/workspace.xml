@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XnQrkwmuwiS8F7fRWKODCdFypH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -88,6 +91,14 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state width="890" height="261" key="GridCell.Tab.0.right/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581953485108" />
+    <state x="414" y="116" width="1496" height="870" key="MergeDialog" timestamp="1582319872535">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="414" y="116" width="1496" height="870" key="MergeDialog/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1582319872535" />
+    <state x="1147" y="271" width="580" height="562" key="MultipleFileMergeDialog" timestamp="1582319872539">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="1147" y="271" width="580" height="562" key="MultipleFileMergeDialog/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1582319872539" />
     <state x="467" y="130" width="1024" height="843" key="SettingsEditor" timestamp="1581679837747">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
