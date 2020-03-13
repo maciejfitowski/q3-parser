@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edd4f60d-3c19-4ff6-91dc-70bda78f4e10" name="Default Changelist" comment="" />
+    <list default="true" id="edd4f60d-3c19-4ff6-91dc-70bda78f4e10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log14022020165200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/model/Death.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/model/Kill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/model/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/model/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q3parser/com/q3parser/parser/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/q3parser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/q3parser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/q3parser/model/Death.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/q3parser/model/Kill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/q3parser/model/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/q3parser/model/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/q3parser/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/q3parser/parser/Parser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XnQrkwmuwiS8F7fRWKODCdFypH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +46,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -63,34 +79,48 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="792" y="265" width="374" height="573" key="#com.intellij.ide.util.MemberChooser" timestamp="1581689568958">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state x="1969" y="265" width="374" height="590" key="#com.intellij.ide.util.MemberChooser" timestamp="1584113224334">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
+    <state x="2682" y="244" key="#com.intellij.ide.util.MemberChooser/49.27.1871.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582647669295" />
     <state x="792" y="265" width="374" height="573" key="#com.intellij.ide.util.MemberChooser/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581689568958" />
+    <state x="1969" y="265" width="374" height="590" key="#com.intellij.ide.util.MemberChooser/49.27.3791.1053@49.27.3791.1053" timestamp="1584113224334" />
     <state x="717" y="302" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581680575426">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="717" y="302" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581680575426" />
+    <state x="2640" y="409" width="518" height="260" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584123899203">
+      <screen x="49" y="27" width="3791" height="1053" />
+    </state>
+    <state x="2640" y="409" width="518" height="260" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/49.27.3791.1053@49.27.3791.1053" timestamp="1584123899203" />
     <state x="767" y="311" width="424" height="482" key="FileChooserDialogImpl" timestamp="1581679856924">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="767" y="311" width="424" height="482" key="FileChooserDialogImpl/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581679856924" />
-    <state width="890" height="261" key="GridCell.Tab.0.bottom" timestamp="1581953485108">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state width="1825" height="269" key="GridCell.Tab.0.bottom" timestamp="1584125237603">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
+    <state width="1825" height="269" key="GridCell.Tab.0.bottom/49.27.1871.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582648447762" />
     <state width="890" height="261" key="GridCell.Tab.0.bottom/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581953485108" />
-    <state width="890" height="261" key="GridCell.Tab.0.center" timestamp="1581953485108">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state width="1825" height="269" key="GridCell.Tab.0.bottom/49.27.3791.1053@49.27.3791.1053" timestamp="1584125237603" />
+    <state width="1825" height="269" key="GridCell.Tab.0.center" timestamp="1584125237603">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
+    <state width="1825" height="269" key="GridCell.Tab.0.center/49.27.1871.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582648447762" />
     <state width="890" height="261" key="GridCell.Tab.0.center/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581953485108" />
-    <state width="890" height="261" key="GridCell.Tab.0.left" timestamp="1581953485108">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state width="1825" height="269" key="GridCell.Tab.0.center/49.27.3791.1053@49.27.3791.1053" timestamp="1584125237603" />
+    <state width="1825" height="269" key="GridCell.Tab.0.left" timestamp="1584125237602">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
+    <state width="1825" height="269" key="GridCell.Tab.0.left/49.27.1871.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582648447762" />
     <state width="890" height="261" key="GridCell.Tab.0.left/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581953485108" />
-    <state width="890" height="261" key="GridCell.Tab.0.right" timestamp="1581953485108">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state width="1825" height="269" key="GridCell.Tab.0.left/49.27.3791.1053@49.27.3791.1053" timestamp="1584125237602" />
+    <state width="1825" height="269" key="GridCell.Tab.0.right" timestamp="1584125237603">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
+    <state width="1825" height="269" key="GridCell.Tab.0.right/49.27.1871.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582648447762" />
     <state width="890" height="261" key="GridCell.Tab.0.right/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581953485108" />
+    <state width="1825" height="269" key="GridCell.Tab.0.right/49.27.3791.1053@49.27.3791.1053" timestamp="1584125237603" />
     <state x="414" y="116" width="1496" height="870" key="MergeDialog" timestamp="1582319872535">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
@@ -99,17 +129,24 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="1147" y="271" width="580" height="562" key="MultipleFileMergeDialog/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1582319872539" />
-    <state x="467" y="130" width="1024" height="843" key="SettingsEditor" timestamp="1581679837747">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state x="1969" y="130" width="1871" height="843" key="SettingsEditor" timestamp="1584110331902">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
     <state x="467" y="130" width="1024" height="843" key="SettingsEditor/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581679837747" />
+    <state x="1969" y="130" width="1871" height="843" key="SettingsEditor/49.27.3791.1053@49.27.3791.1053" timestamp="1584110331902" />
     <state x="640" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581679597905">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="640" y="380" key="com.intellij.ide.util.TipDialog/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581679597905" />
-    <state x="647" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1581689181795">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state x="2548" y="105" width="710" height="867" key="find.popup" timestamp="1584125037357">
+      <screen x="49" y="27" width="3791" height="1053" />
     </state>
+    <state x="2548" y="105" width="710" height="867" key="find.popup/49.27.3791.1053@49.27.3791.1053" timestamp="1584125037357" />
+    <state x="2259" y="255" width="1363" height="679" key="search.everywhere.popup" timestamp="1584123988911">
+      <screen x="49" y="27" width="3791" height="1053" />
+    </state>
+    <state x="2534" y="251" width="690" height="696" key="search.everywhere.popup/49.27.1871.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582647645868" />
     <state x="647" y="272" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053/49.27.1871.1053@49.27.1871.1053" timestamp="1581689181795" />
+    <state x="2259" y="255" width="1363" height="679" key="search.everywhere.popup/49.27.3791.1053@49.27.3791.1053" timestamp="1584123988911" />
   </component>
 </project>
