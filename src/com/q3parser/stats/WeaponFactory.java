@@ -11,29 +11,28 @@ public class WeaponFactory {
     }
 
     private static String getName(String data) {
-        String name = "";
         if (LineParser.isGauntletKill(data)) {
-            name = "Gauntlet";
+            return "Gauntlet";
         } else if (LineParser.isBFGKill(data)) {
-            name = "BFG";
+            return "BFG";
         } else if (LineParser.isRailKill(data)) {
-            name = "Railgun";
+            return "Railgun";
         } else if (LineParser.isRocketKill(data)) {
-            name = "Rocket launcher";
+            return "Rocket launcher";
         } else if (LineParser.isElectroKill(data)) {
-            name = "Lightning gun";
+            return "Lightning gun";
         } else if (LineParser.isGrenadeKill(data)) {
-            name = "Grenade launcher";
+            return "Grenade launcher";
         } else if (LineParser.isPlasmaKill(data)) {
-            name = "Plasma gun";
+            return "Plasma gun";
         } else if (LineParser.isShotGunKill(data)) {
-            name = "Shotgun";
+            return "Shotgun";
         } else if (LineParser.isMachineGunKill(data)) {
-            name = "Machine gun";
+            return "Machine gun";
         } else if (LineParser.isTeleportKill(data)) {
-            name = "Teleport";
+            return "Teleport";
         }
 
-        return name;
+        return "Suicide";
     }
 }

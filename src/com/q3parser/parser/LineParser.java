@@ -1,9 +1,5 @@
 package com.q3parser.parser;
 
-import java.util.ArrayList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class LineParser {
 
     public static boolean isKillLine(String data) {
@@ -60,6 +56,19 @@ public class LineParser {
         return data.contains("BFG");
     }
 
+    private static String getNewPlayerLineKeyword() {
+        return " entered the game";
+    }
+
+    public static boolean isNewPlayerLine(String data) {
+        return data.contains(getNewPlayerLineKeyword());
+    }
+
+    public static String getPlayerName(String data) {
+        return data.replace(getNewPlayerLineKeyword(), "");
+    }
+
+    // TODO: Remove player names before check to eliminate wrong return when player name contains one of the listed words
     public static boolean isSuicide(String data) {
         return data.contains("himself")
                 || data.contains("cratered")
@@ -69,28 +78,5 @@ public class LineParser {
                 || data.contains("wrong place")
                 || data.contains("sank")
                 || data.contains("tripped");
-    }
-
-    public static String getVictim(String data) {
-        return clear(data.split(" ")[0]);
-    }
-
-    public static String getKiller(String data) {
-        if (isSuicide(data)) {
-            return getVictim(data);
-        }
-
-        String[] split = data.split(" ");
-        for (String part : split) {
-            if (part.contains("'s")) {
-                return clear(part);
-            }
-        }
-
-        return clear(split[split.length - 1]);
-    }
-
-    private static String clear(String data) {
-        return data.replace("^7", "").replace("'s", "");
     }
 }

@@ -1,5 +1,7 @@
 package com.q3parser.model;
 
+import com.q3parser.stats.PlayerStatsComparator;
+
 import java.util.ArrayList;
 
 public class GameStats implements StatsInterface {
@@ -11,6 +13,8 @@ public class GameStats implements StatsInterface {
     }
 
     public ArrayList<PlayerStats> getStats() {
+        this.stats.sort(new PlayerStatsComparator());
+
         return stats;
     }
 

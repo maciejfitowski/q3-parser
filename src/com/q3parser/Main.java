@@ -2,28 +2,37 @@ package com.q3parser;
 
 
 import com.q3parser.model.GameStats;
-import com.q3parser.model.Player;
-import com.q3parser.model.PlayerStats;
 import com.q3parser.parser.Parser;
+import com.q3parser.model.ParserResult;
+import com.q3parser.stats.PlayersBuilder;
 import com.q3parser.stats.StatsBuilder;
-
-import java.util.ArrayList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import com.q3parser.stats.StatsTablePrinter;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        String logPath = "log/";
+        if (args.length > 0 && args[0] != null) {
+            logPath = args[0];
+        }
+
         Parser parser = new Parser();
-        ArrayList<ArrayList<String>> parsed = parser.parse("/home/fts/work/q3-parser/log/log20200310140000.txt/");
+        ParserResult result = parser.parse(logPath);
 
-        StatsBuilder builder = new StatsBuilder();
-        GameStats stats = builder.build(parsed);
+        StatsBuilder builder = new StatsBuilder(
+                PlayersBuilder.build(result),
+                result.getKillLines()
+        );
 
-        for (PlayerStats playerStats : stats.getStats()) {
-            Player player = playerStats.getPlayer();
-            System.out.printf("Player: %s | Kills: %d Deaths: %d Score: %d", player.getName(), playerStats.getKills(), playerStats.getDeaths(), playerStats.getScore());
-            System.out.println();
+        try {
+            GameStats stats = builder.build();
+
+            StatsTablePrinter.print(stats);
+            if (args.length > 1 && Integer.parseInt(args[1]) == 1) {
+                StatsTablePrinter.printPlayerKillsByWeapon(stats);
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }

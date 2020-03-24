@@ -3,31 +3,37 @@ package com.q3parser.stats;
 import com.q3parser.model.*;
 import com.q3parser.parser.LineParser;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class StatsBuilder {
 
     private GameStats stats;
 
-    public StatsBuilder() {
+    private List<Player> players;
+
+    private List<String> killLines;
+
+    public StatsBuilder(List<Player> players, List<String> killLines) {
         this.stats = new GameStats();
+        this.players = players;
+        this.killLines = killLines;
     }
 
-    public GameStats build(ArrayList<ArrayList<String>> parsedGames) {
-        for (ArrayList<String> parsedGame : parsedGames) {
-            for (String killLine : parsedGame) {
-                WeaponInterface weapon = WeaponFactory.get(killLine);
-                Player killer = new Player(LineParser.getKiller(killLine));
-                Player victim = new Player(LineParser.getVictim(killLine));
+    public GameStats build() throws Exception {
+        for (String killLine : this.killLines) {
+            WeaponInterface weapon = WeaponFactory.get(killLine);
+            Player killer = getKiller(killLine);
+            Player victim = getVictim(killLine);
 
-                Event event = new Event(killer, weapon, victim);
+            Event event = new Event(killer, weapon, victim);
 
+            if (killer != null) {
                 PlayerStats killerStats = getPlayerStats(killer);
-                PlayerStats victimStats = getPlayerStats(victim);
-
                 killerStats.addKill(event);
-                victimStats.addDeath(event);
             }
+
+            PlayerStats victimStats = getPlayerStats(victim);
+            victimStats.addDeath(event);
         }
 
         return this.stats;
@@ -42,5 +48,33 @@ public class StatsBuilder {
         }
 
         return playerStats;
+    }
+
+    private Player getKiller(String killLine) throws Exception {
+        for (Player player : this.players) {
+            for (String nickName : player.getNicknames()) {
+                if (LineParser.isSuicide(killLine)) {
+                    return null;
+                }
+
+                if (killLine.lastIndexOf(nickName) > 0) {
+                    return player;
+                }
+            }
+        }
+
+        throw new Exception("Unable to find killer on the player's list");
+    }
+
+    private Player getVictim(String killLine) throws Exception {
+        for (Player player : this.players) {
+            for (String nickName : player.getNicknames()) {
+                if (killLine.indexOf(nickName) == 0) {
+                    return player;
+                }
+            }
+        }
+
+        throw new Exception("Unable to find victim on the player's list");
     }
 }

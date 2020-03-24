@@ -27,6 +27,6 @@ out
 hs_err_pid*
 
 # log dir
-log
+log/*
 
 players.txt
