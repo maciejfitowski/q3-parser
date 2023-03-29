@@ -27,10 +27,11 @@ public class Main {
         try {
             GameStats stats = builder.build();
 
-            StatsTablePrinter.print(stats);
             if (args.length > 1 && Integer.parseInt(args[1]) == 1) {
                 StatsTablePrinter.printPlayerKillsByWeapon(stats);
             }
+
+            StatsTablePrinter.print(stats);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

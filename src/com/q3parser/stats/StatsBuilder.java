@@ -63,7 +63,7 @@ public class StatsBuilder {
             }
         }
 
-        throw new Exception("Unable to find killer on the player's list");
+        throw new Exception("Unable to find killer on the player's list: " + killLine);
     }
 
     private Player getVictim(String killLine) throws Exception {
@@ -75,6 +75,6 @@ public class StatsBuilder {
             }
         }
 
-        throw new Exception("Unable to find victim on the player's list");
+        throw new Exception("Unable to find victim on the player's list " + killLine);
     }
 }
